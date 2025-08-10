@@ -2,7 +2,7 @@
 import java.sql.DriverManager;
 import java.sql.Statement;
 import java.util.Scanner;
-public class test {
+public class jdbcconnection {
 
     public  static void main(String[] args){
         String url="jdbc:mysql://localhost:3306/";
@@ -44,3 +44,4 @@ public class test {
     }
     
 }
+
