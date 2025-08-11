@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+.transitionn{
+    color:blue;
+    margin:100px;
+    border-style:dashed;
+    text-align:center;
+    border-radius:6px;
+    border-color:yellow;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-property:all;
+    transition-delay:3s;
+}
+.transitionn:hover{
+    margin:100px;
+    color:blue;
+    border-style:dashed;
+    text-align:left;
+    border-color: aquamarine;
+    border-radius: 6px;
+}
+.transforms{
+    color:blue;
+    margin:100px;
+    border-style:dashed;
+    text-align:center;
+    border-radius:6px;
+    border-color:yellow;
+    transition-duration: 5s;
+    /*transition-timing-function: linear;*/
+    transition-property:all;
+    transition-delay:0s;
+    transform:rotate(360deg);
+    transform-origin:60% 80%;
+
+}
+.transforms:hover{
+    margin:100px;
+    color:blue;
+    border-style:dashed;
+    text-align:center;
+    border-color: aquamarine;
+    border-radius: 6px;
+}
+.ani{
+    color:blue;
+    margin:100px;
+    border-style:dashed;
+    text-align:center;
+    width:20px;
+    height:100px;
+    border-radius:6px;
+    border-color:yellow;
+    transition-duration: 5s;
+    /*transition-timing-function: linear;*/
+    transition-property:all;
+    animation-name:asdf;
+    animation-duration: 6s;
+}
+.ani:hover{
+    animation-direction: forward;
+    width:220px;
+}
+@keyframes asdf{
+    from{
+        background-color: yellow;
+    }
+    to{
+background-color: tomato;
+}
+}
