@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.flex{
+    border-style:solid;
+   display:flex;
+   border-color: blueviolet;
+   flex-wrap: wrap;/*box limit thaandi pochuna we use wrap*/
+}
+.flex > div{
+    border-style:double;
+    border-color: brown;
+    color:darkorange;
+margin:20px;
+padding:20px;
+}
