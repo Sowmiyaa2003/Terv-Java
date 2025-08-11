@@ -14,3 +14,8 @@
 margin:20px;
 padding:20px;
 }
+@media(max-width:800px){
+    .flex{
+        flex-direction: column;
+    }
+}
